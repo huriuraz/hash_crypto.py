@@ -1,0 +1,39 @@
+Huri Uraz
+
+
+			Kriptoloji 
+
+--Örnekteki gibi bir açýk metin üzerinde Aes þifreleme algoritmasý uygulanarak ortaya çýkan hashing sonuçlarý karþýlaþtýrýlmýþtýr.
+
+-Açýk metin
+aaaaaaaaaa
+bbbbbbbbbb
+ccccccccccc
+dddddddddddd
+eeeeeeeeeeee
+ffffffffffff
+eeeeeeeeeeee
+dddddddddddd
+ccccccccccccc
+bbbbbbbbbbbbbbb
+aaaaaaaaaaaaaaaaaa
+kriptoloji 
+hash iþlemleri
+
+-> Örnek birkaç deneme için sonuçlar:
+
+-Açýk metinin hash iþlemi sonucu: 2054566136072610055
+
+-Þifrelenmiþ metinin hash sonucu: -4786678231036238381
+
+-Þifresi çözülmüþ metinin hash sonucu: 107547213 
+
+-Anahtar dosyasý 100 kere hash yapýldýðýnda: -8333488728270379270
+
+*100 kere hashing yapýlmýþ anahtar ile açýk metin tekrar þifrelenirse encryption.txt de baþlangýçtaki encryption.txt'den farklý sonuçlar elde ediliyor.
+
+*Her denemede açýk ve þifreli metinlerin hashing sonuçlarý farklý olmasýna karþýn þifresi çözülmüþ
+metinin hashing sonucu ayný çýkýyor.Yani, þifrelenmiþ metin çözüldüðünde orijinal metinin özelliklerini her zaman taþýdýðý fakat birebir ayný hash sonuçlarý vermediði sonucu elde edilebilir.
+
+
+
